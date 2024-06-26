@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mark Calculations</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="" />
+    <link href="https://api.fontshare.com/v2/css?f[]=supreme@400&display=swap" rel="stylesheet">
+    <link href="https://api.fontshare.com/v2/css?f[]=rowan@400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="name">
+          <h1>Mark Calculations</h1>
+        </div>
+
+        <div class="contain">
+          <div class="lab">
+            <label>English</label>
+            <input type="number" id="one" placeholder="Enter Your Mark" />
+          </div>
+
+          <div class="lab">
+            <label>Tamil</label>
+            <input type="number" id="two" placeholder="Enter Your Mark" />
+          </div>
+
+          <div class="lab">
+            <label>Maths</label>
+            <input type="number" id="three" placeholder="Enter Your Mark" />
+          </div>
+
+          <div class="lab">
+            <label>Science</label>
+            <input type="number" id="four" placeholder="Enter Your Mark" />
+          </div>
+
+          <div class="lab">
+            <label>Social Science</label>
+            <input type="number" id="five" placeholder="Enter Your Mark" />
+          </div>
+
+          <div class="btn">
+            <input type="submit" value="Calculate" onclick="calculate()" />
+          </div>
+          <div class="result">
+            <p id="mark"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
